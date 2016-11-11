@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1EC0CD71DD5FE2700CB9009 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1EC0CD61DD5FE2700CB9009 /* main.cpp */; };
+		A1EC0CE01DD6009400CB9009 /* ParamsParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1EC0CDE1DD6009400CB9009 /* ParamsParser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A1EC0CD31DD5FE2700CB9009 /* PanoramaMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PanoramaMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EC0CD61DD5FE2700CB9009 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1EC0CDE1DD6009400CB9009 /* ParamsParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParamsParser.cpp; sourceTree = "<group>"; };
+		A1EC0CDF1DD6009400CB9009 /* ParamsParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParamsParser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A1EC0CD61DD5FE2700CB9009 /* main.cpp */,
+				A1EC0CDE1DD6009400CB9009 /* ParamsParser.cpp */,
+				A1EC0CDF1DD6009400CB9009 /* ParamsParser.hpp */,
 			);
 			path = PanoramaMaker;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EC0CE01DD6009400CB9009 /* ParamsParser.cpp in Sources */,
 				A1EC0CD71DD5FE2700CB9009 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
