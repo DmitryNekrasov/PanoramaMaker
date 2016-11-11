@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "Panorama.hpp"
 #include "ParamsParser.hpp"
 
 int main(int argc, char** argv) {
