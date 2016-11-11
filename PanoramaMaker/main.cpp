@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     
     auto result = pm::makePanorama(files);
     
-    std::string out_path = parser.getPath() + "..\\" + g_OutFileName;
+    std::string out_path = parser.getPath() + "_" + g_OutFileName;
     pm::writeImage(out_path, result);
     std::cout << "\nResult is saved in " << out_path << std::endl;
     
