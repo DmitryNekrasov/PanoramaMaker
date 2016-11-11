@@ -10,7 +10,12 @@
 
 #include "ParamsParser.hpp"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, char** argv) {
+    
+    ParamsParser parser(argc, argv);
+    
+    auto files = parser.getFiles();
+    
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;
