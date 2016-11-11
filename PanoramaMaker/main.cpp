@@ -15,6 +15,10 @@ int main(int argc, char** argv) {
     ParamsParser parser(argc, argv);
     
     auto files = parser.getFiles();
+    if (files.size() == 0) {
+        std::cout << "Files not found" << std::endl;
+        exit(-1);
+    }
     
     // insert code here...
     std::cout << "Hello, World!\n";
