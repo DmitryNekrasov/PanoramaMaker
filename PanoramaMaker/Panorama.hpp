@@ -13,8 +13,9 @@
 
 #include <opencv2/core/core.hpp>
 
-cv::Mat makePanorama(const std::vector<std::string>& _files);
-
 namespace pm {
+    
+cv::Mat makePanorama(const std::vector<std::string>& _files);
+void writeImage(const std::string& _path, const cv::Mat& _image);
     
 } // pm

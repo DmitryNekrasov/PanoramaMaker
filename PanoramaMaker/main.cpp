@@ -11,6 +11,8 @@
 #include "Panorama.hpp"
 #include "ParamsParser.hpp"
 
+static const std::string g_OutFileName = "panorama.jpg";
+
 int main(int argc, char** argv) {
     
     ParamsParser parser(argc, argv);
@@ -21,7 +23,11 @@ int main(int argc, char** argv) {
         exit(-1);
     }
     
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    auto result = pm::makePanorama(files);
+    
+    std::string out_path = parser.getPath() + "..\\" + g_OutFileName;
+    pm::writeImage(out_path, result);
+    std::cout << "\nResult is saved in " << out_path << std::endl;
+    
     return 0;
 }
