@@ -73,14 +73,14 @@ std::vector<std::string> ParamsParser::getFiles() const {
         if (m_HasPath) {
             path = m_VariablesMap["path"].as<std::string>();
         } else {
-            std::cout << "path!" << std::endl;
+            std::cout << "No path" << std::endl;
             exit(-1);
         }
         
         if (m_HasMask) {
             mask = m_VariablesMap["mask"].as<std::string>();
         } else {
-            std::cout << "mask!" << std::endl;
+            std::cout << "No mask" << std::endl;
             exit(-1);
         }
     }
