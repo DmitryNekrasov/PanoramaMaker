@@ -22,11 +22,11 @@ PanoramaMaker --path=/Users/ScanNorOne/Documents/PanoramaMaker/NSU --mask=*.jpg
 
 <html>
   <p align="center">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122006.jpg" height="230">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122009.jpg" height="230">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122011.jpg" height="230">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122014.jpg" height="230">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122016.jpg" height="230">
-    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU_panorama.jpg" height="235">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122006.jpg" height="220">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122009.jpg" height="220">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122011.jpg" height="220">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122014.jpg" height="220">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU/IMG_20161105_122016.jpg" height="220">
+    <img src="https://github.com/DmitryNekrasov/PanoramaMaker/blob/master/NSU_panorama.jpg" height="225">
   </p>
 <html>
